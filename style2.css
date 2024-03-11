@@ -13,8 +13,8 @@ body {
     border: 2px solid #99BC85; /* 페이지를 감싸는 테두리 추가 */
     border-radius: 100px; /* 둥근 테두리 반경 설정 */
     padding: 220px; /* 테두리와 내용 사이의 여백 추가 */
-    padding-left: 380px;
-    padding-right: 380px;
+    padding-left: 330px;
+    padding-right: 330px;
 }
 .project-container {
     display: flex;
