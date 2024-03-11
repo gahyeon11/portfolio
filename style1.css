@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E1F0DA;
+    border-radius: 20px;
+}
+.page-container {
+    border: 2px solid #99BC85; /* 페이지를 감싸는 테두리 추가 */
+    border-radius: 100px; /* 둥근 테두리 반경 설정 */
+    padding: 250px; /* 테두리와 내용 사이의 여백 추가 */
+    padding-left: 700px;
+    padding-right: 700px;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    letter-spacing: 2px;
+}
+.custom-button {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    background-color: #99BC85;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #BFD8AF;
+}
